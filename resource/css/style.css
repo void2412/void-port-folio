@@ -5,7 +5,7 @@
 /* Universal */
 body{
     background-color: white;
-    color: darkblue;
+    color: seagreen;
 }
 
 /* hero and header */
@@ -67,7 +67,42 @@ nav ul li a{
 
 
 /* main content, section card */
+footer{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:space-between;
+}
 
+footer h1{
+    max-width:500px;
+}
+
+footer form{
+    align-self: center;
+}
+
+#lightMode{
+    background: url(../img/theme_light.png);
+}
+
+#darkMode{
+    background: url(../img/theme_dark.png);
+    
+}
+
+.colorSwitch{
+    width: 16px;
+    height: 16px;
+    border:none;
+    opacity: .7;
+}
+
+.colorSwitch:hover{
+    opacity: 1;
+}
+.colorSwitch:active{
+    opacity: 1;
+}
 
 .sectionCard{
     flex:1 1 100%;
@@ -94,6 +129,8 @@ nav ul li a{
 
 
 /* footer, credit and color switcher */
+
+
 
 /* Viewport */
 @media screen and (max-width:1150px){
