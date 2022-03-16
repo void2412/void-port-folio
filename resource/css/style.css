@@ -97,9 +97,7 @@ footer form{
     opacity: .7;
 }
 
-.colorSwitch:hover{
-    opacity: 1;
-}
+
 .colorSwitch:active{
     opacity: 1;
 }
