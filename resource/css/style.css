@@ -21,6 +21,11 @@ body{
     color: darkgoldenrod;
 }
 
+.header img{
+    margin-top:6px;
+    margin-left: 3px;
+}
+
 .header h1{
     font-size: 48px;
     display: inline-block;
@@ -60,41 +65,6 @@ nav ul li a{
 
 
 /* main content, section card */
-footer{
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content:space-between;
-}
-
-footer h1{
-    max-width:500px;
-}
-
-footer form{
-    align-self: center;
-}
-
-#lightMode{
-    background: url(../img/theme_light.png);
-}
-
-#darkMode{
-    background: url(../img/theme_dark.png);
-    
-}
-
-.colorSwitch{
-    width: 16px;
-    height: 16px;
-    border:none;
-    opacity: .7;
-}
-
-
-.colorSwitch:active{
-    opacity: 1;
-}
-
 .sectionCard{
     flex:1 1 100%;
     
@@ -116,10 +86,53 @@ footer form{
     padding: 10px;
 }
 
+.sectionHeader h1{
+    text-align: right;
+    margin-right: 17px;
+    display: block;
+    font-size: 28px;
+}
 
 
 
 /* footer, credit and color switcher */
+footer{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:space-between;
+}
+
+footer h1{
+    max-width:500px;
+}
+
+footer form{
+    align-self: center;
+    padding-top: 15px;
+    margin-right: 10px;
+}
+
+#lightMode{
+    background: url(../img/theme_light.png);
+}
+
+#darkMode{
+    background: url(../img/theme_dark.png);
+    
+}
+
+.colorSwitch{
+    width: 16px;
+    height: 16px;
+    border:none;
+    margin: 2.5px;
+    opacity: .7;
+}
+
+
+.colorSwitch:active{
+    opacity: 1;
+}
 
 
 
