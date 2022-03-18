@@ -149,15 +149,18 @@ nav ul li a{
 /* footer, credit and color switcher */
 footer{
     display: flex;
-    flex-wrap: nowrap;
-    justify-content:space-between;
+    flex-wrap: wrap;
+    justify-content:flex-end;
 }
 
 footer h1{
-    max-width:500px;
+    flex:1 1 100%;
+    
+    text-align: center;
 }
 
 footer form{
+    text-align: right;
     align-self: center;
     padding-top: 15px;
     margin-right: 10px;
