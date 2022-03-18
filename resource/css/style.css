@@ -131,7 +131,14 @@ nav ul li a{
 
 .projectCard:hover{
     cursor: pointer;
+    animation-name: highlight;
+    animation-duration:1s;
     opacity: 1;
+}
+
+@keyframes highlight {
+    from{opacity: .5;}
+    to{opacity: 1}
 }
 
 #firstProject{
