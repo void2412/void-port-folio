@@ -171,7 +171,7 @@ nav ul li a{
 }
 
 
-.projectCard img:hover{
+.projectCard a:hover img{
     cursor: pointer;
     animation-name: highlight;
     animation-duration:0.7s;
@@ -220,6 +220,52 @@ nav ul li a{
         background-color: green;
         color:white;
     }
+}
+
+
+/* contact section */
+#contact aside{
+    flex: 1 1 100%;
+}
+
+#contact ul{
+    position: relative;
+    top:-10px;
+    padding: 0 0 0 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    flex: 1 1 100%;
+    list-style-type: none;
+    display: flex;
+    border: 1px solid red;
+}
+
+#contact li{
+    flex: 1 1 33.33333%;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#contact li:hover{
+    animation-name: contactHover;
+    animation-duration:0.7s;
+    background-color:orange;
+}
+
+@keyframes contactHover {
+    from{background-color:white}
+    to{background-color:orange}
+}
+
+#contact a{
+    width: 100%;
+    height:100%;
+    display: block;
+    color: seagreen;
+    text-decoration: none;
+    font-size: 24px;
+    line-height: 2;
 }
 
 /* footer, credit and color switcher */
