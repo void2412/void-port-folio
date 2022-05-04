@@ -204,6 +204,10 @@ nav ul li a{
     color: green;
 }
 
+.projectTitle:hover{
+	cursor: pointer;
+}
+
 .projectCard a:hover .projectTitle{
     animation-name: projectTitle;
     animation-duration: 0.7s;
