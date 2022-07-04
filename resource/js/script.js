@@ -4,19 +4,19 @@ const githubBtn = $('#githubLink')
 const deployedBtn = $('#deployedLink')
 const projectLink = [
 	{
+		name: 'My Butcher website',
+		github: 'https://github.com/void2412/MyButcher',
+		deployed: 'https://ordering-system-team4.herokuapp.com/'
+	},
+	{
+		name: 'Tech Blog',
+		github: 'https://github.com/void2412/techBlog',
+		deployed: 'https://tech-blog-2412.herokuapp.com/'
+	},
+	{
 		name: 'MoviDex',
 		github: 'https://github.com/Gkal14/MoviDex',
 		deployed: 'https://gkal14.github.io/MoviDex/'
-	},
-	{
-		name: 'Password Generator',
-		github: 'https://github.com/void2412/passwordGenerator',
-		deployed: 'https://void2412.github.io/passwordGenerator/'
-	},
-	{
-		name: 'Weather Forecast',
-		github: 'https://github.com/void2412/weatherForecast',
-		deployed: 'https://void2412.github.io/weatherForecast/'
 	}
 ]
 
